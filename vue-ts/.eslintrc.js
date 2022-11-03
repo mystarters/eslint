@@ -20,6 +20,8 @@ module.exports = {
   ],
   rules: {
     'max-len': 0,
+
+    'import/extensions': [1, 'ignorePackages', { js: 'never', mjs: 'never', ts: 'never' }],
     'import/no-extraneous-dependencies': [2, {
       devDependencies: [
       ],
