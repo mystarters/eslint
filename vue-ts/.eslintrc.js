@@ -19,6 +19,13 @@ module.exports = {
   plugins: [
     '@typescript-eslint',
   ],
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.ts'],
+      },
+    },
+  },
   rules: {
     'space-before-function-paren': [
       2,
@@ -28,5 +35,8 @@ module.exports = {
         asyncArrow: 'always',
       },
     ],
+
+    'import/extensions': [2, 'ignorePackages', { js: 'never', mjs: 'never', ts: 'never' }],
+    'import/prefer-default-export': 0,
   },
 };
