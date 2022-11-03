@@ -1,42 +1,39 @@
 module.exports = {
   root: true,
   env: {
-    browser: false,
+    browser: true,
     es2021: true,
     node: true,
   },
   extends: [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
     'plugin:vue/recommended',
     '@vue/airbnb',
   ],
-  parser: '@typescript-eslint/parser',
+  overrides: [
+  ],
   parserOptions: {
-    ecmaVersion: 12,
+    parser: '@typescript-eslint/parser',
     sourceType: 'module',
   },
   plugins: [
-    '@typescript-eslint',
+    'vue',
   ],
-  settings: {
-    'import/resolver': {
-      node: {
-        extensions: ['.js', '.ts'],
-      },
-    },
-  },
   rules: {
-    'space-before-function-paren': [
-      2,
-      {
-        anonymous: 'always',
-        named: 'always',
-        asyncArrow: 'always',
-      },
-    ],
-
-    'import/extensions': [2, 'ignorePackages', { js: 'never', mjs: 'never', ts: 'never' }],
+    'max-len': 0,
+    'import/no-extraneous-dependencies': [2, {
+      devDependencies: [
+      ],
+    }],
     'import/prefer-default-export': 0,
+    'vue/first-attribute-linebreak': [2, { singleline: 'beside' }],
+    'vue/max-attributes-per-line': [2, {
+      singleline: {
+        max: 1,
+      },
+      multiline: {
+        max: 1,
+      },
+    }],
+    'vue/max-len': 0,
   },
 };
