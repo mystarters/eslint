@@ -17,6 +17,7 @@ module.exports = {
   plugins: [
   ],
   rules: {
+    indent: 0,
     'space-before-function-paren': [
       2,
       {
