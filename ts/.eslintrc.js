@@ -8,6 +8,7 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'airbnb-base',
+    'plugin:@typescript-eslint/recommended',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -15,6 +16,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: [
+    '@typescript-eslint',
   ],
   rules: {
     'space-before-function-paren': [
