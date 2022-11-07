@@ -1,5 +1,22 @@
 module.exports = {
   root: true,
+  settings: {
+    'import/resolver': {
+      alias: {
+        map: [
+          ['@', './src'],
+        ],
+        extensions: [
+          '.ts',
+          '.js',
+          '.json',
+          '.vue',
+          '.css',
+          '.scss',
+        ],
+      },
+    },
+  },
   env: {
     browser: true,
     es2021: true,
