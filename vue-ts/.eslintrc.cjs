@@ -1,3 +1,4 @@
+/* idmytro/starters/vue-ts */
 module.exports = {
   root: true,
   settings: {

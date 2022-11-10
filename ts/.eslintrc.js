@@ -1,3 +1,4 @@
+/* idmytro/starters/ts */
 module.exports = {
   root: true,
   env: {

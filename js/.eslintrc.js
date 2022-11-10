@@ -1,3 +1,4 @@
+/* idmytro/starters/js */
 module.exports = {
   root: true,
   env: {
