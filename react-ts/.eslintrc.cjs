@@ -1,4 +1,3 @@
-/* idmytro/starters/react-ts */
 module.exports = {
   root: true,
   extends: [
@@ -11,12 +10,14 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: './tsconfig.json',
+    ecmaVersion: 12,
+    sourceType: 'module',
   },
   plugins: [
     '@typescript-eslint',
   ],
   rules: {
-    'space-before-function-paren': [
+    '@typescript-eslint/space-before-function-paren': [
       2,
       {
         anonymous: 'always',
@@ -24,5 +25,19 @@ module.exports = {
         asyncArrow: 'always',
       },
     ],
+    'react/react-in-jsx-scope': 0,
   },
+  overrides: [
+    {
+      files: ['vite.config.ts'],
+      parserOptions: {
+        project: './tsconfig.node.json',
+        ecmaVersion: 12,
+        sourceType: 'module',
+      },
+      rules: {
+        'import/no-extraneous-dependencies': 0,
+      },
+    },
+  ],
 };
