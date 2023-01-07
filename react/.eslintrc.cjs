@@ -4,6 +4,9 @@ module.exports = {
     'airbnb',
     'airbnb/hooks',
   ],
+  env: {
+    browser: true,
+  },
   rules: {
     'space-before-function-paren': [
       2,
