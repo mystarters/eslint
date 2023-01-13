@@ -1,7 +1,7 @@
-# starters
+# eslint-starters
 
-npx degit idmytro/starters/js start
+npx degit idmytro/eslint-starters/js start
 
-npx degit idmytro/starters/ts start
+npx degit idmytro/eslint-starters/ts start
 
-npx degit idmytro/starters/vue-ts start
+npx degit idmytro/eslint-starters/vue-ts start
