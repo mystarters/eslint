@@ -1,4 +1,4 @@
-/* idmytro/starters/js */
+/* idmytro/starters/js-airbnb */
 module.exports = {
   root: true,
   env: {

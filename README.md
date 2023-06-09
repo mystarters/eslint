@@ -1,6 +1,6 @@
 # eslint-starters
 
-npx degit idmytro/eslint-starters/js start
+npx degit idmytro/eslint-starters/js-airbnb start
 
 npx degit idmytro/eslint-starters/ts start
 
