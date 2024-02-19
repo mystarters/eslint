@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "lint": "eslint . --ext .ts,.js",
+    "taze": "npx taze"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.39.5",
+    "eslint": "^8.42.0",
+    "eslint-plugin-no-autofix": "^1.2.3",
+    "typescript": "5.0.4"
+  }
+}
