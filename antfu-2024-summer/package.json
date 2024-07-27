@@ -1,7 +1,8 @@
 {
   "type": "module",
   "scripts": {
-    "lint": "eslint .",
+    "eslint": "eslint .",
+    "eslint:i": "eslint --inspect-config",
     "taze": "npx taze",
     "demo": "cp demo/input.ts demo/output.ts"
   },
