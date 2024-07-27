@@ -1,7 +1,7 @@
 {
   "scripts": {
     "demo": "cp demo/input.ts demo/output.ts",
-    "lint": "eslint .",
+    "eslint": "eslint .",
     "taze": "npx taze"
   },
   "devDependencies": {
