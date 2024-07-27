@@ -1,5 +1,5 @@
-// const sortExports = require("eslint-plugin-sort-exports");
 const stylistic = require('@stylistic/eslint-plugin')
+const perfectionist = require('eslint-plugin-perfectionist')
 
 module.exports = [
   {
@@ -13,6 +13,14 @@ module.exports = [
     ],
   },
   stylistic.configs['recommended-flat'],
+  {
+    plugins: {
+      perfectionist,
+    },
+    rules: {
+      'perfectionist/sort-imports': 'error',
+    },
+  },
   // {
   //   plugins: {
   //     "sort-exports": sortExports
