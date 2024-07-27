@@ -1,4 +1,6 @@
-type IF = () => number
+interface IF {
+  (): number;
+}
 
 export function a() {
   return 11;

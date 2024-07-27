@@ -8,3 +8,6 @@ npx degit idmytro/eslint-starters/antfu-2024-summer start
     "typescript": "5.0.4"
 
 p i eslint typescript @antfu/eslint-config -D
+
+
+p lint --inspect-config
