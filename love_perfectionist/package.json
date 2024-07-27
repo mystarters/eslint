@@ -5,8 +5,10 @@
     "taze": "npx taze"
   },
   "devDependencies": {
+    "@stylistic/eslint-plugin": "^2.4.0",
     "eslint": "^8.0.1",
     "eslint-config-love": "^62.0.0",
+    "eslint-plugin-perfectionist": "^3.0.0",
     "eslint-plugin-sort-exports": "^0.9.1"
   }
 }
