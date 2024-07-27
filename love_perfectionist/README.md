@@ -1,1 +1,1 @@
-# love + sort-exports
+# love + perfectionist + stylistic
