@@ -1,2 +1,2 @@
-export { f } from './input'
-export { x, a } from './output'
+export { f, x } from './input'
+export { a } from './output'

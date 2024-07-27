@@ -19,17 +19,23 @@ module.exports = [
     },
     rules: {
       'perfectionist/sort-imports': 'error',
+      'perfectionist/sort-exports': [
+        'error',
+        {
+          type: 'alphabetical',
+          order: 'asc',
+          ignoreCase: true,
+        },
+      ],
+      'perfectionist/sort-named-exports': [
+        'error',
+        {
+          type: 'alphabetical',
+          order: 'asc',
+          ignoreCase: true,
+          groupKind: 'mixed',
+        },
+      ],
     },
   },
-  // {
-  //   plugins: {
-  //     "sort-exports": sortExports
-  //   },
-  //   rules: {
-  //     "sort-exports/sort-exports": [
-  //       "error",
-  //       { sortDir: "asc", ignoreCase: true, sortExportKindFirst: "type" },
-  //     ],
-  //   },
-  // },
 ]
