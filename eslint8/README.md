@@ -1,5 +1,5 @@
-# antfu-2024-summer
+# eslint8
 
-npx degit idmytro/eslint-starters/antfu-2024-summer start
+npx degit idmytro/eslint-starters/eslint8 myproject
 
 see: https://www.npmjs.com/package/@antfu/eslint-config
