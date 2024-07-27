@@ -1,3 +1,5 @@
-import f from './good-import-declaration'
+// import f from './good-import-declaration'
 
-console.log('Hello, world!', f)
+// console.log('Hello, world!', f)
+
+export const foo = 'baz'
