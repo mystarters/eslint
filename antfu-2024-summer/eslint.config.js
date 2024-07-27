@@ -2,23 +2,24 @@ import antfu from '@antfu/eslint-config'
 
 export default antfu(
   {
+    typescript: true,
     unocss: true,
     vue: true,
-    typescript: true,
   },
   {
     ignores: ['demo/input.ts'],
   },
   {
-
-    '@stylistic/ts/space-before-function-paren': [
-      2,
-      {
-        anonymous: 'always',
-        named: 'always',
-        asyncArrow: 'always',
-      },
-    ],
-    '@typescript-eslint/prefer-function-type': 2,
+    rules: {
+      'style/space-before-function-paren': [
+        2,
+        {
+          anonymous: 'always',
+          named: 'always',
+          asyncArrow: 'always',
+        },
+      ],
+      'ts/prefer-function-type': 2,
+    },
   },
 )

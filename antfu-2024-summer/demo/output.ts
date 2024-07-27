@@ -1,8 +1,6 @@
-interface IF {
-  (): number
-}
+type IF = () => number
 
-export function a() {
+export function a () {
   return 11
 }
 

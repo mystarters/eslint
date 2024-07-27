@@ -9,5 +9,6 @@ npx degit idmytro/eslint-starters/antfu-2024-summer start
 
 p i eslint typescript @antfu/eslint-config -D
 
-
 p lint --inspect-config
+
+https://www.npmjs.com/package/@antfu/eslint-config
