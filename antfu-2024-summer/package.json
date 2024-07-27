@@ -2,7 +2,8 @@
   "type": "module",
   "scripts": {
     "lint": "eslint .",
-    "taze": "npx taze"
+    "taze": "npx taze",
+    "demo": "cp demo/input.ts demo/output.ts"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.23.2",
