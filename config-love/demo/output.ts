@@ -1,6 +1,6 @@
 type IF = () => number
 
-export function a () {
+export function a (): number {
   return 11
 }
 
