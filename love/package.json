@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "demo": "cp demo/input.ts demo/output.ts",
+    "eslint": "eslint .",
+    "taze": "npx taze"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-love": "^62.0.0"
+  }
+}

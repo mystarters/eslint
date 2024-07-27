@@ -1,9 +1,9 @@
 # eslint-starters
 
 ```
-npx degit idmytro/eslint-starters/antfu-2024 start
+npx degit idmytro/eslint-starters/antfu-2024-summer start
 ```
 
 ```
-npx degit idmytro/eslint-starters/vue-ts start
+npx degit idmytro/eslint-starters/love start
 ```
