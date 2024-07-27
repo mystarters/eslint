@@ -1,0 +1,6 @@
+import stylistic from '@stylistic/eslint-plugin'
+
+export default [
+  stylistic.configs['recommended-flat'],
+  // ...your other config items
+]
