@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "scripts": {
+    "taze": "npx taze",
+    "demo": "cp demo/input.ts demo/output.ts"
+  },
+  "devDependencies": {
+
+  }
+}
