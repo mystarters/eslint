@@ -1,8 +1,6 @@
-// import antfu from '@antfu/eslint-config'
-
 type IF = () => number
 
-export function a () {
+export function a() {
   return 11
 }
 

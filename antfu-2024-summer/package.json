@@ -1,13 +1,13 @@
 {
   "type": "module",
   "scripts": {
-    "lint": "eslint . --ext .ts,.js",
+    "lint": "eslint .",
     "taze": "npx taze"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.6.2",
-    "eslint": "^8.56.0",
-    "eslint-plugin-no-autofix": "^1.2.3",
-    "typescript": "5.0.4"
+    "@antfu/eslint-config": "^2.23.2",
+    "@unocss/eslint-plugin": "^0.61.5",
+    "eslint": "9.5.0",
+    "typescript": "^5.5.4"
   }
 }
