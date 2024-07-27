@@ -1,3 +1,1 @@
-# love
-
-npx degit idmytro/eslint-starters/love myproject
+# love + sort-exports
