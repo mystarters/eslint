@@ -1,15 +1,19 @@
 import stylistic from '@stylistic/eslint-plugin'
-import parser from '@typescript-eslint/parser'
+import love from 'eslint-config-love'
+
+import perfectionistConfig from './eslint/perfectionist.js'
 
 export default [
   {
-    languageOptions: {
-      parser,
-      parserOptions: {
-        project: true,
-      },
-    },
+    ...love,
     files: ['**/*.js', '**/*.ts'],
   },
+  {
+    ignores: [
+      'demo/input.ts',
+      'demo/index-input.ts',
+    ],
+  },
   stylistic.configs['recommended-flat'],
+  perfectionistConfig,
 ]
