@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "scripts": {
     "demo": "cp demo/input.ts demo/output.ts",
     "eslint": "eslint .",
