@@ -1,5 +1,5 @@
 import stylistic from '@stylistic/eslint-plugin'
-import { parser } from 'typescript-eslint'
+import parser from '@typescript-eslint/parser'
 
 export default [
   {
