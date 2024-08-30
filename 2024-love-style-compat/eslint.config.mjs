@@ -1,5 +1,6 @@
 import stylistic from '@stylistic/eslint-plugin'
 import love from 'eslint-config-love'
+import compat from 'eslint-plugin-compat'
 
 export default [
   {
@@ -13,4 +14,5 @@ export default [
     ],
   },
   stylistic.configs['recommended-flat'],
+  compat.configs['flat/recommended'],
 ]
