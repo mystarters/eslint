@@ -10,4 +10,4 @@ npx degit idmytro/eslint-starters/love start
 
 ## TODO:
 
-- [] plugin compat
+- [ ] plugin compat
