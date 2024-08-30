@@ -10,4 +10,9 @@ npx degit idmytro/eslint-starters/love start
 
 ## TODO:
 
-- [ ] plugin compat
+- [x] plugin compat
+
+
+## v9
+
+- Love is waiting for plugin-import
