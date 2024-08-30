@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "scripts": {
+    "demo": "cp demo/input.ts demo/output.ts",
+    "eslint": "eslint .",
+    "taze": "npx taze"
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^2.7.2",
+    "@typescript-eslint/parser": "^8.3.0",
+    "eslint": "^9.9.1",
+    "eslint-config-love": "^63.0.0"
+  }
+}
