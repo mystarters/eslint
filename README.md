@@ -12,6 +12,12 @@ npx degit idmytro/eslint-starters/love start
 
 - [x] plugin compat
 
+## Love
+
+- typescript-eslint
+- eslint-plugin-import
+- eslint-plugin-n
+- eslint-plugin-promise
 
 ## v9
 
