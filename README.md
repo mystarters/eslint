@@ -19,6 +19,9 @@ npx degit idmytro/eslint-starters/love start
 - eslint-plugin-n
 - eslint-plugin-promise
 
+## Antfu
+
+
 ## v9
 
 - Love is waiting for plugin-import
