@@ -20,5 +20,6 @@ name = "javascript"
     "cypress"
   ]
   skip_doc_coverage = [
+    "arrow-function-expression",
     "function-declaration"
   ]
