@@ -1,5 +1,10 @@
 version = 1
 
+exclude_patterns = [
+  "**/input.ts",
+  "**/*-input.ts",
+]
+
 [[analyzers]]
 name = "javascript"
 
@@ -14,8 +19,3 @@ name = "javascript"
     "vitest",
     "cypress"
   ]
-
-exclude_patterns = [
-  "**/input.ts",
-  "**/*-input.ts",
-]
