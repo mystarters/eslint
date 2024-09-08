@@ -1,7 +1,7 @@
 type IF = () => number
 
-export function a () {
+export function fn1 () {
   return 11
 }
 
-export const f: IF = () => 11
+export const fn2: IF = () => 11
