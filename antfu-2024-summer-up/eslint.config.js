@@ -4,6 +4,7 @@ export default antfu(
   {
     unocss: true,
     vue: true,
+    formatters: true,
   },
   {
     ignores: ['demo/input.ts'],
