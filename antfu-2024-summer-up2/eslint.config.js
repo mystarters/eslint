@@ -7,7 +7,10 @@ export default antfu(
     vue: true,
   },
   {
-    ignores: ['demo/input.ts'],
+    ignores: [
+      '.vscode/settings.json',
+      'demo/input.ts',
+    ],
   },
   {
     rules: {
