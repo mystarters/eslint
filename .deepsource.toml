@@ -19,3 +19,4 @@ name = "javascript"
     "vitest",
     "cypress"
   ]
+  skip_doc_coverage = ["class-expression", "method-definition"]
