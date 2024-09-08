@@ -1,5 +1,10 @@
 version = 1
 
+exclude_patterns = [
+  "**/input.ts",
+  "**/*-input.ts",
+]
+
 [[analyzers]]
 name = "javascript"
 
@@ -13,4 +18,8 @@ name = "javascript"
     "browser",
     "vitest",
     "cypress"
+  ]
+  skip_doc_coverage = [
+    "arrow-function-expression",
+    "function-declaration"
   ]

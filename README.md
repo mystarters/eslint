@@ -25,3 +25,8 @@ npx degit idmytro/eslint-starters/love start
 ## v9
 
 - Love is waiting for plugin-import
+
+
+## Deepsource
+
+https://docs.deepsource.com/docs/analyzers-javascript#skip_doc_coverage
