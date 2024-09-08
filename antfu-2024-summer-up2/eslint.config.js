@@ -8,7 +8,6 @@ export default antfu(
   },
   {
     ignores: [
-      '.vscode/settings.json',
       'demo/input.ts',
     ],
   },
