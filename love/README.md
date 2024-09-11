@@ -1,3 +1,3 @@
 # love
 
-npx degit idmytro/eslint-starters/love myproject
+npx degit mystarters/eslint/love myproject
