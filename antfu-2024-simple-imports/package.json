@@ -4,6 +4,9 @@
     "lint": "eslint . --ext .ts,.js",
     "taze": "npx taze"
   },
+  "dependencies": {
+    "vue": "^3.5.11"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^3.7.3",
     "eslint": "^9.7.0",
