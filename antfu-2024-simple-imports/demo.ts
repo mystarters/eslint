@@ -1,5 +1,3 @@
-// import antfu from '@antfu/eslint-config'
-
 type IF = () => number
 
 export function a () {
@@ -7,3 +5,5 @@ export function a () {
 }
 
 export const f: IF = () => 11
+
+export const SOMETHING = 'SOMETHING'
